@@ -1,0 +1,168 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Rest In WordPress (RIWP)\n"
+"POT-Creation-Date: 2018-09-02 15:32+0300\n"
+"PO-Revision-Date: 2018-09-02 15:32+0300\n"
+"Last-Translator: Reuven Karasik <rubik@karasik.org>\n"
+"Language-Team: Reuven Karasik <rubik@karasik.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: riwp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: riwp.php:39
+msgctxt "Post Type General Name"
+msgid "Memorials"
+msgstr ""
+
+#: riwp.php:40
+msgctxt "Post Type Singular Name"
+msgid "Memorial"
+msgstr ""
+
+#: riwp.php:41 riwp.php:69
+msgid "Memorials"
+msgstr ""
+
+#: riwp.php:42 riwp.php:68
+msgid "Memorial"
+msgstr ""
+
+#: riwp.php:43
+msgid "Memorial Archives"
+msgstr ""
+
+#: riwp.php:44
+msgid "Memorial Attributes"
+msgstr ""
+
+#: riwp.php:45
+msgid "Parent Memorial:"
+msgstr ""
+
+#: riwp.php:46
+msgid "All Memorials"
+msgstr ""
+
+#: riwp.php:47
+msgid "Add New Memorial"
+msgstr ""
+
+#: riwp.php:48
+msgid "Add New"
+msgstr ""
+
+#: riwp.php:49
+msgid "New Memorial"
+msgstr ""
+
+#: riwp.php:50
+msgid "Edit Memorial"
+msgstr ""
+
+#: riwp.php:51
+msgid "Update Memorial"
+msgstr ""
+
+#: riwp.php:52
+msgid "View Memorial"
+msgstr ""
+
+#: riwp.php:53
+msgid "View Memorials"
+msgstr ""
+
+#: riwp.php:54
+msgid "Search Memorial"
+msgstr ""
+
+#: riwp.php:55
+msgid "Not found"
+msgstr ""
+
+#: riwp.php:56
+msgid "Not found in Trash"
+msgstr ""
+
+#: riwp.php:57
+msgid "Person's Photo"
+msgstr ""
+
+#: riwp.php:58
+msgid "Set photo"
+msgstr ""
+
+#: riwp.php:59
+msgid "Remove photo"
+msgstr ""
+
+#: riwp.php:60
+msgid "Use as photo"
+msgstr ""
+
+#: riwp.php:61
+msgid "Insert into item"
+msgstr ""
+
+#: riwp.php:62
+msgid "Uploaded to this item"
+msgstr ""
+
+#: riwp.php:63
+msgid "Memorials list"
+msgstr ""
+
+#: riwp.php:64
+msgid "Memorials list navigation"
+msgstr ""
+
+#: riwp.php:65
+msgid "Filter items list"
+msgstr ""
+
+#: riwp.php:96
+msgid "R.I.P."
+msgstr ""
+
+#: templates/archive-memorial.php:9
+msgid "Search for memorials by name..."
+msgstr ""
+
+#: templates/archive-memorial.php:10
+msgid "Search"
+msgstr ""
+
+#: templates/archive-memorial.php:16
+msgid "Soon-to-be Yahrzeit"
+msgstr ""
+
+#: templates/archive-memorial.php:18
+msgid "Sort"
+msgstr ""
+
+#: templates/archive-memorial.php:36
+msgid "Sorry, no memorials were found."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Rest In WordPress (RIWP)"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A perpetuation plugin, made on behalf of and for Barfeld.co.il."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Reuven Karasik"
+msgstr ""

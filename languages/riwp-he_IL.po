@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rest In WordPress (RIWP)\n"
+"POT-Creation-Date: 2018-09-02 18:37+0300\n"
+"PO-Revision-Date: 2018-09-02 18:45+0300\n"
+"Last-Translator: Reuven Karasik <rubik@karasik.org>\n"
+"Language-Team: Reuven Karasik <rubik@karasik.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: riwp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: memorial-cpt.php:8
+msgctxt "Post Type General Name"
+msgid "Memorials"
+msgstr "הנצחות"
+
+#: memorial-cpt.php:9
+msgctxt "Post Type Singular Name"
+msgid "Memorial"
+msgstr "הנצחה"
+
+#: memorial-cpt.php:10 memorial-cpt.php:38
+msgid "Memorials"
+msgstr "הנצחות"
+
+#: memorial-cpt.php:11 memorial-cpt.php:37
+msgid "Memorial"
+msgstr "הנצחה"
+
+#: memorial-cpt.php:12
+msgid "Memorial Archives"
+msgstr "ארכיוני הנצחות"
+
+#: memorial-cpt.php:13
+msgid "Memorial Attributes"
+msgstr "מאפייני הנצחות"
+
+#: memorial-cpt.php:14
+msgid "Parent Memorial:"
+msgstr "הנצחת אב:"
+
+#: memorial-cpt.php:15
+msgid "All Memorials"
+msgstr "כל ההנצחות"
+
+#: memorial-cpt.php:16
+msgid "Add New Memorial"
+msgstr "הוספת הנצחה חדשה"
+
+#: memorial-cpt.php:17
+msgid "Add New"
+msgstr "הוספת חדש"
+
+#: memorial-cpt.php:18
+msgid "New Memorial"
+msgstr "הנצחה חדשה"
+
+#: memorial-cpt.php:19
+msgid "Edit Memorial"
+msgstr "עריכת הנצחה"
+
+#: memorial-cpt.php:20
+msgid "Update Memorial"
+msgstr "עדכון הנצחה"
+
+#: memorial-cpt.php:21
+msgid "View Memorial"
+msgstr "צפייה בהנצחה"
+
+#: memorial-cpt.php:22
+msgid "View Memorials"
+msgstr "צפייה בהנצחות"
+
+#: memorial-cpt.php:23
+msgid "Search Memorial"
+msgstr "חיפוש הנצחות"
+
+#: memorial-cpt.php:24
+msgid "Not found"
+msgstr "לא נמצא"
+
+#: memorial-cpt.php:25
+msgid "Not found in Trash"
+msgstr "לא נמצא בפח האשפה"
+
+#: memorial-cpt.php:26
+msgid "Person's Photo"
+msgstr "תמונה של האדם"
+
+#: memorial-cpt.php:27
+msgid "Set photo"
+msgstr "הגדרת תמונה"
+
+#: memorial-cpt.php:28
+msgid "Remove photo"
+msgstr "הסר תמונה"
+
+#: memorial-cpt.php:29
+msgid "Use as photo"
+msgstr "קבע כתמונה"
+
+#: memorial-cpt.php:30
+msgid "Insert into item"
+msgstr "הוסף לפריט"
+
+#: memorial-cpt.php:31
+msgid "Uploaded to this item"
+msgstr "הועלה לפריט זה"
+
+#: memorial-cpt.php:32
+msgid "Memorials list"
+msgstr "רשימת הנצחות"
+
+#: memorial-cpt.php:33
+msgid "Memorials list navigation"
+msgstr "ניווט ברשימת הנצחות"
+
+#: memorial-cpt.php:34
+msgid "Filter items list"
+msgstr "סינון פריטי רשימה"
+
+#: memorial-cpt.php:65
+msgid "R.I.P."
+msgstr "ז”ל"
+
+#: memorial-cpt.php:113
+msgid "Hebrew Yahrzeit"
+msgstr "יום שנה עברי"
+
+#: riwp.php:38
+msgid "There was an error. More information:"
+msgstr "ארעה שגיאה. עוד מידע:"
+
+#: shortcodes/riwp-index.php:7
+msgid "Load More..."
+msgstr "טען עוד שמות…"
+
+#: templates/archive-memorial.php:10
+msgid "Search for memorials by name..."
+msgstr "חפש נפטרים לפי שם…"
+
+#: templates/archive-memorial.php:16
+msgid "Search"
+msgstr "חיפוש"
+
+#: templates/archive-memorial.php:27
+msgid "Soon-to-be Yahrzeit"
+msgstr "יום שנה מתקרב"
+
+#: templates/archive-memorial.php:33
+msgid "Recently Passed"
+msgstr "נפטרו לאחרונה"
+
+#: templates/archive-memorial.php:39
+msgid "By Name (Alphabetically)"
+msgstr "לפי שם (א”ב)"
+
+#: templates/archive-memorial.php:41
+msgid "Sort"
+msgstr "מיון"
+
+#: templates/archive-memorial.php:59
+msgid "Sorry, no memorials were found."
+msgstr "מצטערים, לא נמצאו הנצחות מתאימות."
+
+#. Plugin Name of the plugin/theme
+msgid "Rest In WordPress (RIWP)"
+msgstr "זכרונורדפרס לברכה (RIWP)"
+
+#. Description of the plugin/theme
+msgid "A perpetuation plugin, made on behalf of and for Barfeld.co.il."
+msgstr "תוסף הנצחה לאנשים שנפטרו, נעשה מטעם ברפלד (barfeld.co.il)."
+
+#. Author of the plugin/theme
+msgid "Reuven Karasik"
+msgstr "ראובן קרסיק"

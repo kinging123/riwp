@@ -1,0 +1,24 @@
+.memorial-candle-block {
+	margin-bottom: 35px;
+	text-align: center;
+	height: 350px;
+}
+
+.memorial-candle-block .memorial-name {
+	font-size: 28px;
+	line-height: 1;
+	color: #d4a74e;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+.memorial-candle-block .memorial-date {
+	font-size: 20px;
+	line-height: 1;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.memorial-candle-block .memorial-content p {
+	font-size: 14px;
+}
