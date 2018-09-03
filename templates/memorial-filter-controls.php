@@ -1,6 +1,6 @@
-<div class="row">
+<div class="row riwp-filter-memorials">
 	<div class="col-sm-4">
-		<form action="" method="get">
+		<form action="" method="get" class="riwp-search-memorials">
 			<input type="search" name="riwp_search_memorials" id="riwp_search_memorials"
 				placeholder="<?php esc_html_e( 'Search for memorials by name...', 'riwp' ); ?>"
 				<?php
@@ -12,7 +12,7 @@
 		</form>
 	</div>
 	<div class="col-sm-4 col-sm-offset-4">
-		<form action="" method="get">
+		<form action="" method="get" class="riwp-sort-memorials">
 			<select name="riwp_sort_memorials" id="riwp_sort_memorials">
 				<option value="soon" 
 				<?php
