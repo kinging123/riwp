@@ -48,8 +48,16 @@ function riwp_index_shortcode() {
 	return $riwp_index_template;
 }
 
+function riwp_latest_shortcode() {
+	ob_start();
+	include 'shortcodes/riwp-latest.php';
+	$riwp_latest_template = ob_get_clean();
+	return $riwp_latest_template;
+}
+
 function riwp_register_shortcodes() {
 	add_shortcode( 'riwp-index', 'riwp_index_shortcode' );
+	add_shortcode( 'riwp-latest', 'riwp_latest_shortcode' );
 }
 
 add_action( 'init', 'riwp_register_shortcodes' );

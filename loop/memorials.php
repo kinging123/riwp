@@ -18,6 +18,10 @@ if ( ! isset( $riwp_pagination_page ) ) {
 	$riwp_pagination_page = isset( $_GET['riwp_pagination_page'] ) ? $_GET['riwp_pagination_page'] : 1;
 }
 
+if ( ! isset( $riwp_display_filters ) ) {
+	$riwp_display_filters = isset( $_GET['riwp_display_filters'] ) ? $_GET['riwp_display_filters'] : true;
+}
+
 
 if ( isset( $riwp_search_by ) && $riwp_search_by ) {
 	$riwp_query = new WP_Query(
