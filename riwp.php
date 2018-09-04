@@ -30,7 +30,6 @@ function riwp_enqueue_scripts() {
 
 	wp_enqueue_style( 'riwp-style', plugin_dir_url( __FILE__ ) . '/assets/css/style.css' );
 
-	// wp_enqueue_script( 'angular-js', 'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js', array(), '1.7.2', false );
 	wp_enqueue_script( 'riwp-scripts', plugin_dir_url( __FILE__ ) . '/assets/js/script.js', array( 'jquery' ) );
 	wp_localize_script( 'riwp-scripts', 'RIWP', array(
 		'ajax_url' => admin_url( 'admin-ajax.php' ),

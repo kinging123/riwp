@@ -1,4 +1,17 @@
 jQuery(function($) {
+	// Scroll to section if there are queries
+	var allQueryVars = [
+		'riwp_search_memorials',
+		'riwp_riwp_posts_per_page',
+		'riwp_pagination_page',
+		'riwp_display_filters',
+		'riwp_sort_memorials'
+	];
+	if (allQueryVars.filter(function (queryVar) { return window.location.href.indexOf(queryVar) > -1}).length > 0) {
+		// Basically, if the URL has one of the parameters
+		location.hash = '#riwp_container';
+	}
+	
 	// Load More Button
 	$loadMoreBtn = $('#riwp-load-more-btn');
 	$loadMoreBtn.click(function(e) {

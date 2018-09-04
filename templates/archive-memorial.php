@@ -2,7 +2,7 @@
 $query = isset( $riwp_query ) ? $riwp_query : $wp_query;
 ?>
 
-<div class="container-fluid">
+<div class="container-fluid" id="riwp_container">
 	<?php
 	if ( $riwp_display_filters ) {
 		include 'memorial-filter-controls.php';
