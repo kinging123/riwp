@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Rest In WordPress (RIWP)\n"
-"POT-Creation-Date: 2018-09-03 14:17+0300\n"
-"PO-Revision-Date: 2018-09-03 14:17+0300\n"
+"POT-Creation-Date: 2018-09-02 18:37+0300\n"
+"PO-Revision-Date: 2018-09-02 18:45+0300\n"
 "Last-Translator: Reuven Karasik <rubik@karasik.org>\n"
 "Language-Team: Reuven Karasik <rubik@karasik.org>\n"
 "Language: he\n"
@@ -143,41 +143,37 @@ msgstr "יום שנה עברי"
 msgid "There was an error. More information:"
 msgstr "ארעה שגיאה. עוד מידע:"
 
-#: shortcodes/riwp-index.php:7 shortcodes/riwp-latest.php:10
+#: shortcodes/riwp-index.php:7
 msgid "Load More..."
 msgstr "טען עוד שמות…"
 
-#: templates/archive-memorial.php:25
-msgid "Sorry, no memorials were found."
-msgstr "מצטערים, לא נמצאו הנצחות מתאימות."
-
-#: templates/memorial-filter-controls.php:5
+#: templates/archive-memorial.php:10
 msgid "Search for memorials by name..."
 msgstr "חפש נפטרים לפי שם…"
 
-#: templates/memorial-filter-controls.php:11
+#: templates/archive-memorial.php:16
 msgid "Search"
 msgstr "חיפוש"
 
-#: templates/memorial-filter-controls.php:16
-msgid "Sort by:"
-msgstr "מיין לפי:"
-
-#: templates/memorial-filter-controls.php:23
+#: templates/archive-memorial.php:27
 msgid "Soon-to-be Yahrzeit"
 msgstr "יום שנה מתקרב"
 
-#: templates/memorial-filter-controls.php:29
+#: templates/archive-memorial.php:33
 msgid "Recently Passed"
 msgstr "נפטרו לאחרונה"
 
-#: templates/memorial-filter-controls.php:35
+#: templates/archive-memorial.php:39
 msgid "By Name (Alphabetically)"
 msgstr "לפי שם (א”ב)"
 
-#: templates/memorial-filter-controls.php:37
+#: templates/archive-memorial.php:41
 msgid "Sort"
 msgstr "מיון"
+
+#: templates/archive-memorial.php:59
+msgid "Sorry, no memorials were found."
+msgstr "מצטערים, לא נמצאו הנצחות מתאימות."
 
 #. Plugin Name of the plugin/theme
 msgid "Rest In WordPress (RIWP)"
