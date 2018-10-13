@@ -54,9 +54,17 @@ function riwp_latest_shortcode() {
 	return $riwp_latest_template;
 }
 
+function riwp_mid_month_countdown() {
+	ob_start();
+	include 'shortcodes/riwp-mid-month-countdown.php';
+	$riwp_latest_template = ob_get_clean();
+	return $riwp_latest_template;
+}
+
 function riwp_register_shortcodes() {
 	add_shortcode( 'riwp-index', 'riwp_index_shortcode' );
 	add_shortcode( 'riwp-latest', 'riwp_latest_shortcode' );
+	add_shortcode( 'riwp-mid-month-countdown', 'riwp_mid_month_countdown' );
 }
 
 add_action( 'init', 'riwp_register_shortcodes' );
